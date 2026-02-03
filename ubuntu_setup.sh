@@ -30,3 +30,7 @@ sudo dpkg -i cuda-repo-ubuntu2404-12-9-local_12.9.0-575.51.03-1_amd64.deb
 sudo cp /var/cuda-repo-ubuntu2404-12-9-local/cuda-*-keyring.gpg /usr/share/keyrings/
 sudo apt-get updatesudo apt-get -y install cuda-toolkit-12-9
 echo "export PATH=/usr/local/cuda/bin:$PATH" >> ~/.zshrc
+
+# Aliases
+echo "alias clean=\"find . -name \"*~\" -delete\"" >> ~/.zshrc
+echo "ne=\"emacs -nw\""

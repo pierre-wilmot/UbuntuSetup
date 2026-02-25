@@ -6,7 +6,7 @@ sudo apt-get update && sudo apt-get upgrade
 sudo apt install nvidia-driver-580-open
 
 # Common software
-sudo apt-get install git tig tree cmake build-essential zsh htop emacs ffmpeg terminator openssh-server python3.12-venv sqlite3 tmux cgdb
+sudo apt-get install git tig tree cmake build-essential zsh htop emacs ffmpeg terminator openssh-server python3.12-venv sqlite3 tmux cgdb ccmake
 
 # git setup
 git config --global user.name "Pierre Wilmot"
